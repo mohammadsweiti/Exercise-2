@@ -11,16 +11,16 @@
     <header class="header">
       <h1>John Doe</h1>
       <p>Full stack Devloper | Designer | programmer</p>
+      <br />
       <nav>
         <a
           class="button"
           href="
         #me"
-          >About me
-        </a>
-        <a class="button" href="">Skills</a>
-        <a class="button" href="">projecrs</a>
-        <a class="button" href="">contact</a>
+          >About me </a
+        >&nbsp;&nbsp; <a class="button" href="#Skills">Skills</a> &nbsp;&nbsp;
+        <a class="button" href="#Projects">projecrs</a>&nbsp;&nbsp;
+        <a class="button" href="#contact">contact</a>
       </nav>
     </header>
     <main>
@@ -38,6 +38,7 @@
       </section>
       <section id="Skills">
         <h2>Skills</h2>
+        <br />
         <div>
           <div>Html5&CSS3</div>
           <div>JavaScript</div>
@@ -48,7 +49,80 @@
           <div>Responsve design</div>
         </div>
       </section>
+      <section id="Projects">
+        <h2>Projects</h2>
+        <div class="Portfolio">
+          <h3>Portfolio wensite</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+        <div class="E-commerce">
+          <h3>E-commerce Site</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+        <div class="Task">
+          <h3>Task management app</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+        <div class="Blog">
+          <h3>Blog paltform</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>contact me</h2>
+        <div>
+          if you'd like to get in touch , please fill out the form below :
+        </div>
+        <form action="" method="post">
+          <label for="name">Name:</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name "
+          />
+          <br />
+          <label for="ema">Email:</label> <br />
+          <input
+            type="email"
+            id="ema"
+            name="emai"
+            placeholder="Enter your Email"
+            autocomplete="on"
+          />
+          <br />
+          <label for="Mess">Message</label><br />
+          <textarea
+            name="Mess"
+            id="Mess"
+            placeholder="Enter your message"
+          ></textarea>
+          <br />
+          <input class="but" type="button" value="Submit" />
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div>
+        &copy; 2024 john Doe |
+        <a href="https://github.com/mohammadsweiti">GitHub</a> |
+        <a href="https://www.linkedin.com/in/mohammad-sweiti-695828280/"
+          >linkedIn</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
